@@ -6,6 +6,7 @@
   color: #fff;
 }
 
+/*Centers everything*/
 .game {
   display: flex;
   flex-direction: column;
@@ -16,6 +17,7 @@
   align-items: center;
 }
 
+/*Title of the game*/
 .title {
   position: flex;
   margin-bottom: 20px;
@@ -23,9 +25,22 @@
   text-decoration: underline;
 }
 
+/*Explains the game*/
 .desc {
   font-size: 1.5rem;
   margin-bottom: 20px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+}
+
+.p-count,
+.c-count {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .move {
@@ -53,11 +68,13 @@
   border: none;
 }
 
+/*Padding and increased font for computer's choice display*/
 .comChoice {
   padding-top: 20px;
   font-size: 2rem;
 }
 
+/*margin and increased font for game result*/
 .result {
   margin-top: 20px;
   font-size: 2rem;
